@@ -15,9 +15,10 @@ class App extends Component {
     lose: 0,
     values: ['', '', '', '', '', '', '', '', '']
   }    
-    
-  onPress = (index, state) => {	  
-  console.log('does not work');
+    	
+  //Adds both moves to the array and checks if there is a win or a draw
+  onPress = (index, state) => {
+  
     if(state.values[index] == ''){
 
       var newArray = [...state.values]
