@@ -5,5 +5,5 @@ When its done execute 'expo start'. Expo will show you a qr code on the terminal
 
 Upgrades to be done:
 
-Hook implementation
+Hook implementation \n
 Interactive CSS for web/desktop
